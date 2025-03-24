@@ -1,0 +1,7 @@
+
+RAG release - 0.0.0.1
+Milvus프로젝트 생성
+
+KSS_standard release - 0.0.0.1
+- 1차 개발 완성 modules 분리.
+

@@ -1,0 +1,1 @@
+# 프로젝트 안에는 raw data는 넣지말것. raw data는 DB 폴더에 보관하고 project 안에 data 폴더에는 precessed data로 보관할것
