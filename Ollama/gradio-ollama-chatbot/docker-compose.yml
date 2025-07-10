@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: chatbot_app
+    ports:
+      - "8001:8001"
+    networks:
+      - chatbot_net
+    restart: unless-stopped
+
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    container_name: chatbot_client
+    ports:
+      - "7860:7860"
+    depends_on:
+      - app
+    networks:
+      - chatbot_net
+    restart: unless-stopped
+
+networks:
+  chatbot_net:

@@ -1,3 +1,7 @@
+KSS_standard release - 0.0.0.2
+injection을 위한 excel 파일 만들기 제작
+standard model + tracker 정보를 이용해 노트북파일로 만듬
+preprocessed_model.ipynb 참고
 
 RAG release - 0.0.0.1
 Milvus프로젝트 생성

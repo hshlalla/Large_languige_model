@@ -3,3 +3,147 @@ raw_data:
     
 preprocessed_data:
     data_path: "../data/processed/"
+
+
+# 장비와 파츠 DF 분리
+
+EQUIPMENTS_CATEGORY:
+  - Asher
+  - CMP
+  - CVD
+  - ECD
+  - Etch
+  - Furnace
+  - Implant
+  - Metrology
+  - PVD
+  - RTP
+  - Stepper
+  - Scanner
+  - Track
+  - WET
+  - MoCVD
+  - Fab Others
+  - Prober
+  - Handler
+  - Tester
+  - ATE ETC
+  - Packaging
+  - Dicing Saw
+  - Wire Bonder
+  - Die Bonder
+  - Back Grinder
+  - PKG ETC
+  - Chip Mounter
+  - Reflow&Soldering
+  - Inspection
+  - Auto Inserter
+  - SMT ETC
+
+PARTS_CATEGORY:
+  - PCBs
+  - RF
+  - CMP Parts & Consumables
+  - Motion Control
+  - Robot
+  - Chuck & Pedestal
+  - Process Kit
+  - MFC & LFC
+  - Gauge
+  - Valve
+  - Laser
+  - Pump
+  - Chiller & Scrubber
+  - Part Others
+
+OTHERS_CATEGORY:
+  - Display
+  - General Tester
+  - Microscope
+  - Plastic Processing
+  - Printer&Dispenser
+  - Medical
+  - Other Industry > Other
+  - PCB Equip
+  - Solar
+  - LCD
+  - Wafer
+  - Others
+  - Metalworking
+
+
+EQUIPMENTS_CATEGORY_CODE:
+  - METROLOGY
+  - PKG_ETC
+  - COMPONENT
+  - ATE_ETC
+  - ETCH
+  - TESTER
+  - WET
+  - SMT_ETC
+  - FURNACE
+  - TRACK
+  - STEPPER
+  - CHIP_MOUNTER
+  - CVD
+  - PVD
+  - PROBER
+  - SCANNER
+  - ASHER
+  - DIE_BONDER
+  - WIRE_BONDER
+  - HANDLER
+  - DICING_SAW
+  - IMPLANT
+  - REFLOW_SOLDERING
+  - RTP
+  - INSPECTION
+  - BACK_GRINDER
+  - CMP
+  - ECD
+  - LED
+  - AUTO_INSERTER
+
+PARTS_CATEGORY_CODE:
+  - PARTS_PC
+  - PARTS_PK
+  - PARTS_ML
+  - MACH_PARTS
+  - OELEC_PARTS
+  - PARTS_VALVE
+  - PARTS_PUMP
+  - PARTS_PCBS
+  - PARTS_MC
+  - PARTS_RF
+  - PARTS_CP
+  - UTIL_FITT
+  - SEAL
+  - PARTS_ROBOT
+  - PARTS_CS
+  - PARTS_CPC
+  - BEAR_BELL
+  - LAMP
+  - FILTER
+  - PARTS_LASER
+  - TMP_CNT
+  - PARTS_SENSOR
+  - PARTS_POWER
+  - PARTS_GAUGE
+  - PARTS_CABLES
+  - PARTS_HEATER
+  - CONSUM_OTHERS
+
+
+OTHERS_CATEGORY_CODE:
+  - GENERAL_TESTER
+  - DISPLAY_SUB
+  - MICROSCOPE
+  - PLASTIC_PROC
+  - PRINTER_DISPENSER
+  - MEDICAL
+  - OI_OTHER
+  - PCB
+  - SOLAR
+  - LCD
+  - WAFEROTHERS
+  - METALWORKING
