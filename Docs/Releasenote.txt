@@ -1,3 +1,10 @@
+specXploer release - 1.0.0.2
+specXploer 제작
+prompts
+storage
+LLM
+3개 폴더로 나누어서 설계 진행 
+
 KSS_standard release - 0.0.0.2
 injection을 위한 excel 파일 만들기 제작
 standard model + tracker 정보를 이용해 노트북파일로 만듬
